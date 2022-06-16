@@ -1,0 +1,12 @@
+C:\Users\leand\Desktop\Ies\Programación II\VISUAL\appweb2\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.csproj.AssemblyReference.cache
+C:\Users\leand\Desktop\Ies\Programación II\VISUAL\appweb2\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leand\Desktop\Ies\Programación II\VISUAL\appweb2\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.AssemblyInfoInputs.cache
+C:\Users\leand\Desktop\Ies\Programación II\VISUAL\appweb2\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.AssemblyInfo.cs
+C:\Users\leand\Desktop\Ies\Programación II\VISUAL\appweb2\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.csproj.CoreCompileInputs.cache
+C:\Users\leand\Desktop\Ies\Programación II\VISUAL\appweb2\IES9012\IES9012.Core\bin\Debug\net6.0\IES9012.Core.deps.json
+C:\Users\leand\Desktop\Ies\Programación II\VISUAL\appweb2\IES9012\IES9012.Core\bin\Debug\net6.0\IES9012.Core.dll
+C:\Users\leand\Desktop\Ies\Programación II\VISUAL\appweb2\IES9012\IES9012.Core\bin\Debug\net6.0\IES9012.Core.pdb
+C:\Users\leand\Desktop\Ies\Programación II\VISUAL\appweb2\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.dll
+C:\Users\leand\Desktop\Ies\Programación II\VISUAL\appweb2\IES9012\IES9012.Core\obj\Debug\net6.0\refint\IES9012.Core.dll
+C:\Users\leand\Desktop\Ies\Programación II\VISUAL\appweb2\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.pdb
+C:\Users\leand\Desktop\Ies\Programación II\VISUAL\appweb2\IES9012\IES9012.Core\obj\Debug\net6.0\ref\IES9012.Core.dll
