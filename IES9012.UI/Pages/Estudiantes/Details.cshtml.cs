@@ -14,30 +14,33 @@ namespace IES9012.UI.Pages.Estudiantes
     {
         private readonly IES9012.UI.Data.IES9012Context _context;
 
-        public DetailsModel(IES9012.UI.Data.IES9012Context context)
+        public DetailsModel(IES9012.UI.Data.IES9012Context  context)
         {
             _context = context;
         }
 
-      public Estudiante Estudiante { get; set; } = default!; 
+      public Estudiante Estudiante { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null || _context.Estudiantes == null)
+            if (id == null)
             {
                 return NotFound();
             }
+            Estudiante = await _context.Estudiantes
+            .Include(s => s.Inscripciones)
+            .ThenInclude(e => e.Materia)
+            .AsNoTracking()
+            .FirstOrDefaultAsync(m => m.EstudianteId == id);
 
-            var estudiante = await _context.Estudiantes.FirstOrDefaultAsync(m => m.EstudianteId == id);
-            if (estudiante == null)
+            if (Estudiante == null)
             {
                 return NotFound();
-            }
-            else 
-            {
-                Estudiante = estudiante;
+
             }
             return Page();
         }
+
+
+
     }
-}
